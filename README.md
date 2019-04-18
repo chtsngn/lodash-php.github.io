@@ -491,7 +491,7 @@ $users = [
 ['user' => 'pebbles', 'active' => true],
 ];
 
-findIndex($users, function($o) { return $o['user'] s== 'barney'; });
+findIndex($users, function($o) { return $o['user'] === 'barney'; });
 // => 0
 
 // The `matches` iteratee shorthand.
